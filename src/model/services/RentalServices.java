@@ -5,7 +5,7 @@ import model.entities.Invoice;
 
 import java.time.Duration;
 
-public class RentalServices {
+public class RentalServices implements TaxService{
 
     private Double pricePerHour;
     private Double pricePerDay;
